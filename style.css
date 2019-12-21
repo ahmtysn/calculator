@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #444;
+  font-weight: bold;
+}
+#calc-parent {
+  margin-left: calc(50% - 100px);
+  margin-top: 50px;
+}
+.calc-btn {
+  background-color: silver;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 25px;
+  height: 45px;
+  border: 1px solid grey;
+  font-size: 32px;
+  font-weight: 100px;
+  padding-top: 3px;
+}
+.calc-btn:hover {
+  background-color: orange;
+  color: white;
+}
+.row {
+  display: table;
+  table-layout: fixed;
+  width: 200px;
+}
+.column {
+  display: table-cell;
+}
+#calc-zero {
+  width: 52.6667px;
+  border-radius: 0 0 0 7px;
+}
+#calc-clear {
+  width: 52.66667px;
+}
+#calc-display-val {
+  height: 80px;
+  color: white;
+  text-align: right;
+  border: 1px solid grey;
+  font-size: 48px;
+  background-color: #383838;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 12px;
+  border-radius: 7px 7px 0 0;
+}
+.calc-btn-operator {
+  background-color: orange;
+  color: white;
+}
+.calc-btn-operator:hover {
+  background-color: silver;
+  color: black;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+#calc-equals {
+  border-radius: 0 0 7px 0;
+}
